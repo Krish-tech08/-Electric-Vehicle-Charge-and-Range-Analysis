@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">EV Analytics</h1>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/dashboard" class="active">Dashboard</a></li>
+                <li><a href="/story">Story</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="viz-container">
+        <h2>Interactive Dashboard</h2>
+        <div class="tableau-viz">
+            <iframe
+                src="https://public.tableau.com/views/Book2_17729068481180/Dashboard1??:embed=y&:showVizHome=no"
+                width="100%"
+                height="900"
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+    <footer>
+        <p>EV Analytics Dashboard | Powered by Tableau Public</p>
+    </footer>
+</body>
+</html>

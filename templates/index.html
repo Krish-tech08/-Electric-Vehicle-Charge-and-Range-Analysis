@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Analytics Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">EV Analytics</h1>
+            <ul class="nav-menu">
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/dashboard">Dashboard</a></li>
+                <li><a href="/story">Story</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Electric Vehicle Data Analytics</h1>
+            <p>Explore interactive visualizations and insights about the electric vehicle market</p>
+            <div class="cta-buttons">
+                <a href="/dashboard" class="btn btn-primary">View Dashboard</a>
+                <a href="/story" class="btn btn-secondary">Explore Story</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="container">
+            <div class="feature-card">
+                <h3>Interactive Dashboard</h3>
+                <p>Dive deep into EV market trends with dynamic, filterable visualizations</p>
+            </div>
+            <div class="feature-card">
+                <h3>Data Story</h3>
+                <p>Follow a guided narrative through the most important insights</p>
+            </div>
+            <div class="feature-card">
+                <h3>Comprehensive Data</h3>
+                <p>Powered by real-world EV datasets and market analytics</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>EV Analytics Dashboard | Powered by Tableau Public</p>
+    </footer>
+</body>
+</html>
