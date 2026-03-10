@@ -29,19 +29,6 @@ Efficiency of different EV models
 
 The analysis is presented through interactive Tableau dashboards embedded into a Flask web application, allowing users to explore EV data insights through an easy-to-use web interface.
 
-🎯 Live Demo
-
-🌐 Web Application
-http://keshu.pythonanywhere.com
-
-📊 Tableau Public Dashboards
-
-Dashboard
-https://public.tableau.com/app/profile/kushagra.verma4013/viz/Book2_17729068481180/Dashboard1
-
-Data Story
-https://public.tableau.com/app/profile/kushagra.verma4013/viz/Book2_17729068481180/StoryofElelcticCarsinIndia
-
 ✨ Features
 
 📊 Interactive Tableau Dashboards for EV data exploration
