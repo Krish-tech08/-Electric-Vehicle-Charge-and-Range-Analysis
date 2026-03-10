@@ -60,7 +60,10 @@ Frontend	HTML5, CSS3
 Data Visualization	Tableau Public
 Database	MySQL, SQL
 Deployment	PythonAnywhere
-📁 Project Structure
+
+## 📁 Project Structure
+
+```text
 Electric_Vehicle_Data_Analysis/
 │
 ├── app.py                  # Flask backend application
@@ -76,6 +79,7 @@ Electric_Vehicle_Data_Analysis/
 └── static/
     └── css/
         └── style.css
+```
 🚀 Running the Project Locally
 Prerequisites
 
