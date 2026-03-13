@@ -101,13 +101,7 @@ http://localhost:5000
 
 ## 🌐 Deployment
 
-This project is deployed using PythonAnywhere. Steps to deploy:
-
-1. Create an account on PythonAnywhere
-2. Upload the project files
-3. Configure the WSGI file
-4. Set static files mapping
-5. Reload the web application
+This project is deployed using PythonAnywhere.
 
 ## 📊 Data Sources
 
